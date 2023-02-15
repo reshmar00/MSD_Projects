@@ -1,0 +1,1 @@
+Used Android Studio to create a chat application (extension of a previous project -- check out "Chat Server") that creates websocket connections and displays messages new messages to a screen as they're received.
