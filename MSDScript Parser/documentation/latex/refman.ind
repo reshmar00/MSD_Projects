@@ -1,0 +1,98 @@
+\begin{theindex}
+
+  \item {/Users/reshmaraghavan/Desktop/msdscript/Expr.cpp}, 
+		\hyperpage{24}
+  \item {/Users/reshmaraghavan/Desktop/msdscript/Expr.h}, 
+		\hyperpage{25}
+  \item {/Users/reshmaraghavan/Desktop/msdscript/TestExpr.cpp}, 
+		\hyperpage{26}
+  \item {/Users/reshmaraghavan/Desktop/msdscript/cmdline.cpp}, 
+		\hyperpage{23}
+  \item {/Users/reshmaraghavan/Desktop/msdscript/cmdline.hpp}, 
+		\hyperpage{24}
+
+  \indexspace
+
+  \item {Add}, \hyperpage{9}
+    \subitem {Add}, \hyperpage{10}
+    \subitem {equals}, \hyperpage{10}
+    \subitem {has\_variable}, \hyperpage{10}
+    \subitem {interp}, \hyperpage{11}
+    \subitem {subst}, \hyperpage{11}
+
+  \indexspace
+
+  \item {equals}
+    \subitem {Add}, \hyperpage{10}
+    \subitem {Expr}, \hyperpage{12}
+    \subitem {Mult}, \hyperpage{14}
+    \subitem {Num}, \hyperpage{18}
+    \subitem {Var}, \hyperpage{21}
+  \item {Expr}, \hyperpage{12}
+    \subitem {equals}, \hyperpage{12}
+    \subitem {has\_variable}, \hyperpage{12}
+    \subitem {interp}, \hyperpage{13}
+    \subitem {subst}, \hyperpage{13}
+
+  \indexspace
+
+  \item {has\_variable}
+    \subitem {Add}, \hyperpage{10}
+    \subitem {Expr}, \hyperpage{12}
+    \subitem {Mult}, \hyperpage{14}
+    \subitem {Num}, \hyperpage{18}
+    \subitem {Var}, \hyperpage{21}
+
+  \indexspace
+
+  \item {interp}
+    \subitem {Add}, \hyperpage{11}
+    \subitem {Expr}, \hyperpage{13}
+    \subitem {Mult}, \hyperpage{15}
+    \subitem {Num}, \hyperpage{19}
+    \subitem {Var}, \hyperpage{22}
+
+  \indexspace
+
+  \item {Mult}, \hyperpage{13}
+    \subitem {equals}, \hyperpage{14}
+    \subitem {has\_variable}, \hyperpage{14}
+    \subitem {interp}, \hyperpage{15}
+    \subitem {Mult}, \hyperpage{14}
+    \subitem {subst}, \hyperpage{15}
+
+  \indexspace
+
+  \item {Num}, \hyperpage{16}
+    \subitem {equals}, \hyperpage{18}
+    \subitem {has\_variable}, \hyperpage{18}
+    \subitem {interp}, \hyperpage{19}
+    \subitem {Num}, \hyperpage{17}
+    \subitem {subst}, \hyperpage{19}
+
+  \indexspace
+
+  \item {subst}
+    \subitem {Add}, \hyperpage{11}
+    \subitem {Expr}, \hyperpage{13}
+    \subitem {Mult}, \hyperpage{15}
+    \subitem {Num}, \hyperpage{19}
+    \subitem {Var}, \hyperpage{22}
+
+  \indexspace
+
+  \item {TEST\_CASE}
+    \subitem {TestExpr.cpp}, \hyperpage{27}
+  \item {TestExpr.cpp}
+    \subitem {TEST\_CASE}, \hyperpage{27}
+
+  \indexspace
+
+  \item {Var}, \hyperpage{20}
+    \subitem {equals}, \hyperpage{21}
+    \subitem {has\_variable}, \hyperpage{21}
+    \subitem {interp}, \hyperpage{22}
+    \subitem {subst}, \hyperpage{22}
+    \subitem {Var}, \hyperpage{20}
+
+\end{theindex}

@@ -1,0 +1,70 @@
+
+label {
+    display: inline-block;
+    width: 110px;
+    cursor: default;
+}
+
+#userNameText, #roomNameText, #messageText {
+    resize: none;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: forestgreen;
+    text-align: center;
+}
+.parent1{
+    text-align: center;
+}
+.child1{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+p1,p2,p3{
+    letter-spacing: 0px;
+}
+#main{
+    display: flex;
+    border: 1px solid black;
+    width: 70%;
+    height: fit-content;
+    margin: auto;
+}
+#left {
+    margin: 7px;
+    width: 30%;
+    border: 1px solid black;
+    background: lightgreen;
+    text-align: center;
+    line-height: 200%;
+    word-wrap: break-word;
+}
+#right{
+    margin: 7px;
+    width: 70%;
+    border: 1px solid black;
+    background: lightgreen;
+    text-align: left;
+    line-height: 200%;
+    word-wrap: break-word;
+}
+
+.parent2{
+    margin: 5px;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.messageDiv{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+
+li{
+    list-style-type: none;
+}
+

@@ -1,0 +1,162 @@
+\hypertarget{class_mult}{}\doxysection{Mult Class Reference}
+\label{class_mult}\index{Mult@{Mult}}
+Inheritance diagram for Mult\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_mult}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_mult_a8089dde8d1d32fc1d62c01f8521a364d}{Mult}} (\mbox{\hyperlink{class_expr}{Expr}} $\ast$left, \mbox{\hyperlink{class_expr}{Expr}} $\ast$right)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_mult_a01e8b8d819db386b353d7191424cc97e}{equals}} (\mbox{\hyperlink{class_expr}{Expr}} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Overriding \char`\"{}equals\char`\"{} method in \mbox{\hyperlink{class_expr}{Expr}} (base) class Basically, we compare two \mbox{\hyperlink{class_mult}{Mult}} objects and determine if they are equal to one another by comparing their member variables (both Expr$\ast$ lhs and Expr$\ast$ rhs) \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_mult_a7d3fba024174b294a7e1c145485b9d38}{interp}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_mult}{Mult}} returns a number (an int) Basically, \mbox{\hyperlink{class_mult_a7d3fba024174b294a7e1c145485b9d38}{interp()}} interprets the value of the object. In this case, a \mbox{\hyperlink{class_mult}{Mult}} object contains two expressions that should be multiplied by one another; the product is returned. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_mult_ab53cc8634d4ebad5aaa2dc818c0de598}{has\+\_\+variable}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_mult}{Mult}} returns true if it HAS a variable The general rule of thumb is this function returns true if the Expression is a variable or has a variable In \mbox{\hyperlink{class_mult}{Mult}}, we check if the lhs or the rhs HAVE a variable. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_expr}{Expr}} $\ast$ \mbox{\hyperlink{class_mult_a81b660dd811cbaf30028908dff410b74}{subst}} (std\+::string str, \mbox{\hyperlink{class_expr}{Expr}} $\ast$e)
+\begin{DoxyCompactList}\small\item\em If the first param (str) is in either lhs or rhs, we replace it with e and return. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \mbox{\hyperlink{class_expr_abf9cdb765fb84304881789d273d7594f}{equals}} (\mbox{\hyperlink{class_expr}{Expr}} $\ast$e)=0
+\begin{DoxyCompactList}\small\item\em Expression class\+: it is an abstract class with virtual methods to be implemented in its derived classes. \end{DoxyCompactList}\item 
+virtual int \mbox{\hyperlink{class_expr_aeba8585d8225419d49166371306542c1}{interp}} ()=0
+\item 
+virtual bool \mbox{\hyperlink{class_expr_a92dc26078993a4b9721ea732274a435c}{has\+\_\+variable}} ()=0
+\item 
+virtual \mbox{\hyperlink{class_expr}{Expr}} $\ast$ \mbox{\hyperlink{class_expr_aa91f56b56e078594565aeba32c520b7a}{subst}} (std\+::string str, \mbox{\hyperlink{class_expr}{Expr}} $\ast$e)=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_mult_a9e2acda98ce8c008004b39f1f76e7eab}\label{class_mult_a9e2acda98ce8c008004b39f1f76e7eab}} 
+\mbox{\hyperlink{class_expr}{Expr}} $\ast$ {\bfseries lhs}
+\item 
+\mbox{\Hypertarget{class_mult_abc649b82c60b2531ceeff3a5d7a552b0}\label{class_mult_abc649b82c60b2531ceeff3a5d7a552b0}} 
+\mbox{\hyperlink{class_expr}{Expr}} $\ast$ {\bfseries rhs}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_mult_a8089dde8d1d32fc1d62c01f8521a364d}\label{class_mult_a8089dde8d1d32fc1d62c01f8521a364d}} 
+\index{Mult@{Mult}!Mult@{Mult}}
+\index{Mult@{Mult}!Mult@{Mult}}
+\doxysubsubsection{\texorpdfstring{Mult()}{Mult()}}
+{\footnotesize\ttfamily Mult\+::\+Mult (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_expr}{Expr}} $\ast$}]{left,  }\item[{\mbox{\hyperlink{class_expr}{Expr}} $\ast$}]{right }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em left} & a pointer to an Expression \\
+\hline
+{\em right} & a pointer to an Expression\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing (it is a constructor so it just creates an object of type \mbox{\hyperlink{class_add}{Add}}) 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_mult_a01e8b8d819db386b353d7191424cc97e}\label{class_mult_a01e8b8d819db386b353d7191424cc97e}} 
+\index{Mult@{Mult}!equals@{equals}}
+\index{equals@{equals}!Mult@{Mult}}
+\doxysubsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily bool Mult\+::equals (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_expr}{Expr}} $\ast$}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Overriding \char`\"{}equals\char`\"{} method in \mbox{\hyperlink{class_expr}{Expr}} (base) class Basically, we compare two \mbox{\hyperlink{class_mult}{Mult}} objects and determine if they are equal to one another by comparing their member variables (both Expr$\ast$ lhs and Expr$\ast$ rhs) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Pointer to an expression \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true or false (it is a boolean) 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr_abf9cdb765fb84304881789d273d7594f}{Expr}}.
+
+\mbox{\Hypertarget{class_mult_ab53cc8634d4ebad5aaa2dc818c0de598}\label{class_mult_ab53cc8634d4ebad5aaa2dc818c0de598}} 
+\index{Mult@{Mult}!has\_variable@{has\_variable}}
+\index{has\_variable@{has\_variable}!Mult@{Mult}}
+\doxysubsubsection{\texorpdfstring{has\_variable()}{has\_variable()}}
+{\footnotesize\ttfamily bool Mult\+::has\+\_\+variable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\mbox{\hyperlink{class_mult}{Mult}} returns true if it HAS a variable The general rule of thumb is this function returns true if the Expression is a variable or has a variable In \mbox{\hyperlink{class_mult}{Mult}}, we check if the lhs or the rhs HAVE a variable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true or false (it is a boolean) 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr}{Expr}}.
+
+\mbox{\Hypertarget{class_mult_a7d3fba024174b294a7e1c145485b9d38}\label{class_mult_a7d3fba024174b294a7e1c145485b9d38}} 
+\index{Mult@{Mult}!interp@{interp}}
+\index{interp@{interp}!Mult@{Mult}}
+\doxysubsubsection{\texorpdfstring{interp()}{interp()}}
+{\footnotesize\ttfamily int Mult\+::interp (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\mbox{\hyperlink{class_mult}{Mult}} returns a number (an int) Basically, \mbox{\hyperlink{class_mult_a7d3fba024174b294a7e1c145485b9d38}{interp()}} interprets the value of the object. In this case, a \mbox{\hyperlink{class_mult}{Mult}} object contains two expressions that should be multiplied by one another; the product is returned. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the product of two subexpression classes 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr}{Expr}}.
+
+\mbox{\Hypertarget{class_mult_a81b660dd811cbaf30028908dff410b74}\label{class_mult_a81b660dd811cbaf30028908dff410b74}} 
+\index{Mult@{Mult}!subst@{subst}}
+\index{subst@{subst}!Mult@{Mult}}
+\doxysubsubsection{\texorpdfstring{subst()}{subst()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_expr}{Expr}} $\ast$ Mult\+::subst (\begin{DoxyParamCaption}\item[{std\+::string}]{str,  }\item[{\mbox{\hyperlink{class_expr}{Expr}} $\ast$}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+If the first param (str) is in either lhs or rhs, we replace it with e and return. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & a String value \\
+\hline
+{\em e} & a pointer to an Expression \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a new \mbox{\hyperlink{class_mult}{Mult}} Expression 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr}{Expr}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/reshmaraghavan/\+Desktop/msdscript/\mbox{\hyperlink{_expr_8h}{Expr.\+h}}\item 
+/\+Users/reshmaraghavan/\+Desktop/msdscript/\mbox{\hyperlink{_expr_8cpp}{Expr.\+cpp}}\end{DoxyCompactItemize}

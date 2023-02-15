@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidChatClient</string>
+    <string name="room_name">Room: </string>
+    <string name="sendBtn">Send</string>
+    <string name="joinBtn">Join</string>
+    <string name="loginTxt">Login</string>
+    <string name="userName">User Name:</string>
+    <string name="userNameTxt">Reshma</string>
+    <string name="room">Room:</string>
+    <string name="roomTxt">green</string>
+    <string name="messageBox">Message:</string>
+    <string name="messageTxt">Type something here</string>
+</resources>

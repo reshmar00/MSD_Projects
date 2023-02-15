@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat Room</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Chat Room</h1>
+<div class = "parent1">
+    <div class = "child1">
+        <label>User Name:</label>
+        <input id = "userNameText"></input>
+    </div>
+    <div class = "child1">
+        <label>Room Name:</label>
+        <input id = "roomNameText"></input>
+    </div>
+</div>
+<br><br>
+<div id="main">
+    <div id="left">
+        <p1><b><u>People in room</u></b></p1>
+        <br>
+        <p class = "users"></p>
+        <ul id = "userList"></ul>
+    </div>
+    <div id="right">
+        <p2><b>&ensp; &ensp; Messages</b></p2>
+        <p class = "msgs"></p>
+        <ul id = "msgList"></ul>
+    </div>
+</div>
+<div class = "parent2">
+    <div class = "messageDiv">
+        <label>Message: &ensp;</label>
+        <input id = "messageText"></input>
+    </div>
+    <div class = "myBtn">
+    <button id= "button">Party Mode!</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

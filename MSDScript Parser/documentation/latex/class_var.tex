@@ -1,0 +1,157 @@
+\hypertarget{class_var}{}\doxysection{Var Class Reference}
+\label{class_var}\index{Var@{Var}}
+Inheritance diagram for Var\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_var}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_var_a3ce57d6cf54fcb63869a7eaa50c196cb}{Var}} (std\+::string value)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_var_a36314fbf7736f619da64b854f4437949}{equals}} (\mbox{\hyperlink{class_expr}{Expr}} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Overriding \char`\"{}equals\char`\"{} method in \mbox{\hyperlink{class_expr}{Expr}} (base) class Basically, we compare two \mbox{\hyperlink{class_var}{Var}} objects and determine if they are equal to one another by comparing their member variables (String val) \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_var_ac6df55db7c2447d3090dd99ae247ae80}{interp}} ()
+\begin{DoxyCompactList}\small\item\em A \mbox{\hyperlink{class_var}{Var}} has no int equivalent. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_var_a6083356e4955e1edfb76b8432672c93e}{has\+\_\+variable}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_var}{Var}} returns true as it IS a variable The general rule of thumb is this function returns true if the Expression is a variable or has a variable. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_expr}{Expr}} $\ast$ \mbox{\hyperlink{class_var_a55d151aba7bfb585b43f0cc675786434}{subst}} (std\+::string str, \mbox{\hyperlink{class_expr}{Expr}} $\ast$e)
+\begin{DoxyCompactList}\small\item\em If the first param (str) is in the original \mbox{\hyperlink{class_var}{Var}}, we replace it with e and return. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \mbox{\hyperlink{class_expr_abf9cdb765fb84304881789d273d7594f}{equals}} (\mbox{\hyperlink{class_expr}{Expr}} $\ast$e)=0
+\begin{DoxyCompactList}\small\item\em Expression class\+: it is an abstract class with virtual methods to be implemented in its derived classes. \end{DoxyCompactList}\item 
+virtual int \mbox{\hyperlink{class_expr_aeba8585d8225419d49166371306542c1}{interp}} ()=0
+\item 
+virtual bool \mbox{\hyperlink{class_expr_a92dc26078993a4b9721ea732274a435c}{has\+\_\+variable}} ()=0
+\item 
+virtual \mbox{\hyperlink{class_expr}{Expr}} $\ast$ \mbox{\hyperlink{class_expr_aa91f56b56e078594565aeba32c520b7a}{subst}} (std\+::string str, \mbox{\hyperlink{class_expr}{Expr}} $\ast$e)=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_var_a0b09f789fa31afb29bb81635acb4a0dd}\label{class_var_a0b09f789fa31afb29bb81635acb4a0dd}} 
+std\+::string {\bfseries val}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_var_a3ce57d6cf54fcb63869a7eaa50c196cb}\label{class_var_a3ce57d6cf54fcb63869a7eaa50c196cb}} 
+\index{Var@{Var}!Var@{Var}}
+\index{Var@{Var}!Var@{Var}}
+\doxysubsubsection{\texorpdfstring{Var()}{Var()}}
+{\footnotesize\ttfamily Var\+::\+Var (\begin{DoxyParamCaption}\item[{std\+::string}]{value }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & a String value\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing (it is a constructor so it just creates an object of type \mbox{\hyperlink{class_var}{Var}}) 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_var_a36314fbf7736f619da64b854f4437949}\label{class_var_a36314fbf7736f619da64b854f4437949}} 
+\index{Var@{Var}!equals@{equals}}
+\index{equals@{equals}!Var@{Var}}
+\doxysubsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily bool Var\+::equals (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_expr}{Expr}} $\ast$}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Overriding \char`\"{}equals\char`\"{} method in \mbox{\hyperlink{class_expr}{Expr}} (base) class Basically, we compare two \mbox{\hyperlink{class_var}{Var}} objects and determine if they are equal to one another by comparing their member variables (String val) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Pointer to an expression \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true or false (it is a boolean) 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr_abf9cdb765fb84304881789d273d7594f}{Expr}}.
+
+\mbox{\Hypertarget{class_var_a6083356e4955e1edfb76b8432672c93e}\label{class_var_a6083356e4955e1edfb76b8432672c93e}} 
+\index{Var@{Var}!has\_variable@{has\_variable}}
+\index{has\_variable@{has\_variable}!Var@{Var}}
+\doxysubsubsection{\texorpdfstring{has\_variable()}{has\_variable()}}
+{\footnotesize\ttfamily bool Var\+::has\+\_\+variable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\mbox{\hyperlink{class_var}{Var}} returns true as it IS a variable The general rule of thumb is this function returns true if the Expression is a variable or has a variable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true or false (it is a boolean) 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr}{Expr}}.
+
+\mbox{\Hypertarget{class_var_ac6df55db7c2447d3090dd99ae247ae80}\label{class_var_ac6df55db7c2447d3090dd99ae247ae80}} 
+\index{Var@{Var}!interp@{interp}}
+\index{interp@{interp}!Var@{Var}}
+\doxysubsubsection{\texorpdfstring{interp()}{interp()}}
+{\footnotesize\ttfamily int Var\+::interp (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+A \mbox{\hyperlink{class_var}{Var}} has no int equivalent. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+throws a runtime error 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr}{Expr}}.
+
+\mbox{\Hypertarget{class_var_a55d151aba7bfb585b43f0cc675786434}\label{class_var_a55d151aba7bfb585b43f0cc675786434}} 
+\index{Var@{Var}!subst@{subst}}
+\index{subst@{subst}!Var@{Var}}
+\doxysubsubsection{\texorpdfstring{subst()}{subst()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_expr}{Expr}} $\ast$ Var\+::subst (\begin{DoxyParamCaption}\item[{std\+::string}]{str,  }\item[{\mbox{\hyperlink{class_expr}{Expr}} $\ast$}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+If the first param (str) is in the original \mbox{\hyperlink{class_var}{Var}}, we replace it with e and return. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & a String value \\
+\hline
+{\em e} & a pointer to an Expression \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a new \mbox{\hyperlink{class_var}{Var}} Expression 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr}{Expr}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/reshmaraghavan/\+Desktop/msdscript/\mbox{\hyperlink{_expr_8h}{Expr.\+h}}\item 
+/\+Users/reshmaraghavan/\+Desktop/msdscript/\mbox{\hyperlink{_expr_8cpp}{Expr.\+cpp}}\end{DoxyCompactItemize}

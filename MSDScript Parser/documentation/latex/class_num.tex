@@ -1,0 +1,157 @@
+\hypertarget{class_num}{}\doxysection{Num Class Reference}
+\label{class_num}\index{Num@{Num}}
+Inheritance diagram for Num\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_num}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_num_a46101946d55ba2c20baa0e72a67eb1a3}{Num}} (int value)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_num_a3bf692f7d3fc54e016affbe618ec11e4}{equals}} (\mbox{\hyperlink{class_expr}{Expr}} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Overriding \char`\"{}equals\char`\"{} method in \mbox{\hyperlink{class_expr}{Expr}} (base) class Basically, we compare two \mbox{\hyperlink{class_num}{Num}} objects and determine if they are equal to one another by comparing their member variables (int val) \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_num_a24f8a1c7ccad82bf7ed1080b59cda6dd}{interp}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_num}{Num}} returns a number (an int) Basically, \mbox{\hyperlink{class_num_a24f8a1c7ccad82bf7ed1080b59cda6dd}{interp()}} interprets the value of the object. In this case, a \mbox{\hyperlink{class_num}{Num}} object contains an integer; this is returned. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_num_ad0ce114704933a1ebe4629848d3e2d6d}{has\+\_\+variable}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_num}{Num}} returns false since it IS NOT a variable and DOES NOT HAVE a variable The general rule of thumb is this function returns true if the Expression is a variable or has a variable. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_expr}{Expr}} $\ast$ \mbox{\hyperlink{class_num_ae53898d9964951ceba9fcc79d2c5f9d7}{subst}} (std\+::string str, \mbox{\hyperlink{class_expr}{Expr}} $\ast$e)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_num}{Num}} will never contain a string, so it just returns the original value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \mbox{\hyperlink{class_expr_abf9cdb765fb84304881789d273d7594f}{equals}} (\mbox{\hyperlink{class_expr}{Expr}} $\ast$e)=0
+\begin{DoxyCompactList}\small\item\em Expression class\+: it is an abstract class with virtual methods to be implemented in its derived classes. \end{DoxyCompactList}\item 
+virtual int \mbox{\hyperlink{class_expr_aeba8585d8225419d49166371306542c1}{interp}} ()=0
+\item 
+virtual bool \mbox{\hyperlink{class_expr_a92dc26078993a4b9721ea732274a435c}{has\+\_\+variable}} ()=0
+\item 
+virtual \mbox{\hyperlink{class_expr}{Expr}} $\ast$ \mbox{\hyperlink{class_expr_aa91f56b56e078594565aeba32c520b7a}{subst}} (std\+::string str, \mbox{\hyperlink{class_expr}{Expr}} $\ast$e)=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_num_ab0654582066deb3adbbd64cf7190a7b7}\label{class_num_ab0654582066deb3adbbd64cf7190a7b7}} 
+int {\bfseries val}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_num_a46101946d55ba2c20baa0e72a67eb1a3}\label{class_num_a46101946d55ba2c20baa0e72a67eb1a3}} 
+\index{Num@{Num}!Num@{Num}}
+\index{Num@{Num}!Num@{Num}}
+\doxysubsubsection{\texorpdfstring{Num()}{Num()}}
+{\footnotesize\ttfamily Num\+::\+Num (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & an integer value\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing (it is a constructor so it just creates an object of type \mbox{\hyperlink{class_num}{Num}}) 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_num_a3bf692f7d3fc54e016affbe618ec11e4}\label{class_num_a3bf692f7d3fc54e016affbe618ec11e4}} 
+\index{Num@{Num}!equals@{equals}}
+\index{equals@{equals}!Num@{Num}}
+\doxysubsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily bool Num\+::equals (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_expr}{Expr}} $\ast$}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Overriding \char`\"{}equals\char`\"{} method in \mbox{\hyperlink{class_expr}{Expr}} (base) class Basically, we compare two \mbox{\hyperlink{class_num}{Num}} objects and determine if they are equal to one another by comparing their member variables (int val) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Pointer to an expression \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true or false (it is a boolean) 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr_abf9cdb765fb84304881789d273d7594f}{Expr}}.
+
+\mbox{\Hypertarget{class_num_ad0ce114704933a1ebe4629848d3e2d6d}\label{class_num_ad0ce114704933a1ebe4629848d3e2d6d}} 
+\index{Num@{Num}!has\_variable@{has\_variable}}
+\index{has\_variable@{has\_variable}!Num@{Num}}
+\doxysubsubsection{\texorpdfstring{has\_variable()}{has\_variable()}}
+{\footnotesize\ttfamily bool Num\+::has\+\_\+variable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\mbox{\hyperlink{class_num}{Num}} returns false since it IS NOT a variable and DOES NOT HAVE a variable The general rule of thumb is this function returns true if the Expression is a variable or has a variable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true or false (it is a boolean) 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr}{Expr}}.
+
+\mbox{\Hypertarget{class_num_a24f8a1c7ccad82bf7ed1080b59cda6dd}\label{class_num_a24f8a1c7ccad82bf7ed1080b59cda6dd}} 
+\index{Num@{Num}!interp@{interp}}
+\index{interp@{interp}!Num@{Num}}
+\doxysubsubsection{\texorpdfstring{interp()}{interp()}}
+{\footnotesize\ttfamily int Num\+::interp (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\mbox{\hyperlink{class_num}{Num}} returns a number (an int) Basically, \mbox{\hyperlink{class_num_a24f8a1c7ccad82bf7ed1080b59cda6dd}{interp()}} interprets the value of the object. In this case, a \mbox{\hyperlink{class_num}{Num}} object contains an integer; this is returned. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr}{Expr}}.
+
+\mbox{\Hypertarget{class_num_ae53898d9964951ceba9fcc79d2c5f9d7}\label{class_num_ae53898d9964951ceba9fcc79d2c5f9d7}} 
+\index{Num@{Num}!subst@{subst}}
+\index{subst@{subst}!Num@{Num}}
+\doxysubsubsection{\texorpdfstring{subst()}{subst()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_expr}{Expr}} $\ast$ Num\+::subst (\begin{DoxyParamCaption}\item[{std\+::string}]{str,  }\item[{\mbox{\hyperlink{class_expr}{Expr}} $\ast$}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\mbox{\hyperlink{class_num}{Num}} will never contain a string, so it just returns the original value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & a String value \\
+\hline
+{\em e} & a pointer to an Expression \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a new \mbox{\hyperlink{class_num}{Num}} Expression (containing the same integer val) 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr}{Expr}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/reshmaraghavan/\+Desktop/msdscript/\mbox{\hyperlink{_expr_8h}{Expr.\+h}}\item 
+/\+Users/reshmaraghavan/\+Desktop/msdscript/\mbox{\hyperlink{_expr_8cpp}{Expr.\+cpp}}\end{DoxyCompactItemize}
