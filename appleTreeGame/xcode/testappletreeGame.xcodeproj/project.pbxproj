@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		23E29C1142BE4EF4A903E70B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CD37BDF0CF13439C85BE6DE1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				659DAB30100ADA887ED1C2EE /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				377933C71E624AFF8FF95D6A /* PBXTargetDependency */,
+				D17C7F361E9E49EB8D09C606 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C32825A1C03B4DE8A5CEDFFE /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F53C5C0FDC0D4AE88A346604 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				4AE85E289DCD25E97F3CB951 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0247461BD7C84CED8603B06E /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/fallingApple.hpp */ = {isa = PBXBuildFile; fileRef = F9E547658EC3457BA0AFCBA6 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/fallingApple.hpp */; };
+		067FB2D02B1849F6934CF9DD /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/thrownApple1.hpp */ = {isa = PBXBuildFile; fileRef = 30399EE54359457DB78B5A37 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/thrownApple1.hpp */; };
+		0A2B3B86269744DA9011E9F0 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/world.cpp */ = {isa = PBXBuildFile; fileRef = B14703D53F72449F8C0EE374 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/world.cpp */; };
+		274E5D6F9D6444A584DC7BB6 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/squirrel.cpp */ = {isa = PBXBuildFile; fileRef = 724EE2E187EB41FF85497D17 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/squirrel.cpp */; };
+		27D8F4E1A16E4E8BBD82FCC3 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/basket.hpp */ = {isa = PBXBuildFile; fileRef = EB87F4BEC01B43BFB74DAC14 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/basket.hpp */; };
+		4867368FA46E43059F4865A2 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/world.hpp */ = {isa = PBXBuildFile; fileRef = DBF43866A54C4E31A248AD05 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/world.hpp */; };
+		4E682625D11E4310AC032337 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/basket.cpp */ = {isa = PBXBuildFile; fileRef = 878440F3B17E43378253E3D6 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/basket.cpp */; };
+		CD783055D7264B1A839F2B64 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/thrownApple1.cpp */ = {isa = PBXBuildFile; fileRef = 97821AEFCAF145768482F9FA /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/thrownApple1.cpp */; };
+		CFB66711A6E043399BEA86FF /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 68C5517A440A45C9BD02F45E /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/CMakeLists.txt */; };
+		DF51E44214814D629D77615C /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/squirrel.hpp */ = {isa = PBXBuildFile; fileRef = 5B2466D7E8854F43AD886333 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/squirrel.hpp */; };
+		F6A19498EA7C4B4F9DB7FB9F /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/fallingApple.cpp */ = {isa = PBXBuildFile; fileRef = C04BB997D4C34442A3E85EC2 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/fallingApple.cpp */; };
+		FE7815C4F9114828B2CD3AE7 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/appletreeGame.cpp */ = {isa = PBXBuildFile; fileRef = F8F20C3DB95240EF96A48546 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/appletreeGame.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0E216FA5FC314219A824DEB7 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		5DE68E2753694E848F84AD63 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		7C452F4B786A45078A02C884 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		FC6CAAA1098D458F85C4FF15 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		7E57D4DB72684C80803D9025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44EF89CF5C484752AC69B396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32825A1C03B4DE8A5CEDFFE;
+			remoteInfo = ZERO_CHECK;
+		};
+		B2616A0ACF214186851C04E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44EF89CF5C484752AC69B396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F669C5EEAC9D45C6BFE601AB;
+			remoteInfo = testappletreeGame;
+		};
+		C9C3FD9D32FF4D15BED7644E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44EF89CF5C484752AC69B396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32825A1C03B4DE8A5CEDFFE;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30399EE54359457DB78B5A37 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/thrownApple1.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = thrownApple1.hpp; path = src/thrownApple1.hpp; sourceTree = SOURCE_ROOT; };
+		30CDD5D88A6F405A89D5A0B4 /* testappletreeGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = testappletreeGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2466D7E8854F43AD886333 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/squirrel.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = squirrel.hpp; path = src/squirrel.hpp; sourceTree = SOURCE_ROOT; };
+		68C5517A440A45C9BD02F45E /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		724EE2E187EB41FF85497D17 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/squirrel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = squirrel.cpp; path = src/squirrel.cpp; sourceTree = SOURCE_ROOT; };
+		878440F3B17E43378253E3D6 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/basket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = basket.cpp; path = src/basket.cpp; sourceTree = SOURCE_ROOT; };
+		972C7F67D95548EDAE92A647 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		97821AEFCAF145768482F9FA /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/thrownApple1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = thrownApple1.cpp; path = src/thrownApple1.cpp; sourceTree = SOURCE_ROOT; };
+		B14703D53F72449F8C0EE374 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/world.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = world.cpp; path = src/world.cpp; sourceTree = SOURCE_ROOT; };
+		C04BB997D4C34442A3E85EC2 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/fallingApple.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fallingApple.cpp; path = src/fallingApple.cpp; sourceTree = SOURCE_ROOT; };
+		DBF43866A54C4E31A248AD05 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/world.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = world.hpp; path = src/world.hpp; sourceTree = SOURCE_ROOT; };
+		EB87F4BEC01B43BFB74DAC14 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/basket.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = basket.hpp; path = src/basket.hpp; sourceTree = SOURCE_ROOT; };
+		F8F20C3DB95240EF96A48546 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/appletreeGame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = appletreeGame.cpp; path = src/appletreeGame.cpp; sourceTree = SOURCE_ROOT; };
+		F9E547658EC3457BA0AFCBA6 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/fallingApple.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fallingApple.hpp; path = src/fallingApple.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		975372937BEA44658EAE6A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D54CBDF656541709D3FB3C0 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB87F4BEC01B43BFB74DAC14 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/basket.hpp */,
+				F9E547658EC3457BA0AFCBA6 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/fallingApple.hpp */,
+				5B2466D7E8854F43AD886333 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/squirrel.hpp */,
+				30399EE54359457DB78B5A37 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/thrownApple1.hpp */,
+				DBF43866A54C4E31A248AD05 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/world.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		20D317F88D7347A0A57C231B /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				402E45208923483987B35D52 /* CMake Rules */,
+				972C7F67D95548EDAE92A647 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		3C49FC9EBBC44C149A8ADA40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		402E45208923483987B35D52 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		503A33EA445842A29D94A029 /* testappletreeGame */ = {
+			isa = PBXGroup;
+			children = (
+				98A0DC060EDC483DA053B5F7 /* Source Files */,
+				0D54CBDF656541709D3FB3C0 /* Header Files */,
+				68C5517A440A45C9BD02F45E /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/CMakeLists.txt */,
+			);
+			name = testappletreeGame;
+			sourceTree = "<group>";
+		};
+		58D03E614E7A485785FF19B6 = {
+			isa = PBXGroup;
+			children = (
+				503A33EA445842A29D94A029 /* testappletreeGame */,
+				20D317F88D7347A0A57C231B /* ALL_BUILD */,
+				757172A55BCA4215AEE5A420 /* Products */,
+				3C49FC9EBBC44C149A8ADA40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		757172A55BCA4215AEE5A420 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30CDD5D88A6F405A89D5A0B4 /* testappletreeGame */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98A0DC060EDC483DA053B5F7 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8F20C3DB95240EF96A48546 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/appletreeGame.cpp */,
+				878440F3B17E43378253E3D6 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/basket.cpp */,
+				C04BB997D4C34442A3E85EC2 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/fallingApple.cpp */,
+				724EE2E187EB41FF85497D17 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/squirrel.cpp */,
+				97821AEFCAF145768482F9FA /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/thrownApple1.cpp */,
+				B14703D53F72449F8C0EE374 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/world.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F669C5EEAC9D45C6BFE601AB /* testappletreeGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A337FF3B603548C5A263E657 /* Build configuration list for PBXNativeTarget "testappletreeGame" */;
+			buildPhases = (
+				22EDC9280CE048B2BB9DFEDF /* Sources */,
+				975372937BEA44658EAE6A9A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F88B904D5654A4D9D9A71E6 /* PBXTargetDependency */,
+			);
+			name = testappletreeGame;
+			productName = testappletreeGame;
+			productReference = 30CDD5D88A6F405A89D5A0B4 /* testappletreeGame */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44EF89CF5C484752AC69B396 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = C278252DA1D246C4B0830ED9 /* Build configuration list for PBXProject "testappletreeGame" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				FC6CAAA1098D458F85C4FF15 /* Debug */,
+				7C452F4B786A45078A02C884 /* Release */,
+				5DE68E2753694E848F84AD63 /* MinSizeRel */,
+				0E216FA5FC314219A824DEB7 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 58D03E614E7A485785FF19B6;
+			projectDirPath = /Users/reshmaraghavan/Desktop/finalProject/appletreeGame;
+			projectRoot = "";
+			targets = (
+				23E29C1142BE4EF4A903E70B /* ALL_BUILD */,
+				C32825A1C03B4DE8A5CEDFFE /* ZERO_CHECK */,
+				F669C5EEAC9D45C6BFE601AB /* testappletreeGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4AE85E289DCD25E97F3CB951 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode
+  make -f /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode
+  make -f /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode
+  make -f /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode
+  make -f /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		659DAB30100ADA887ED1C2EE /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22EDC9280CE048B2BB9DFEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7815C4F9114828B2CD3AE7 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/appletreeGame.cpp */,
+				4E682625D11E4310AC032337 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/basket.cpp */,
+				F6A19498EA7C4B4F9DB7FB9F /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/fallingApple.cpp */,
+				274E5D6F9D6444A584DC7BB6 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/squirrel.cpp */,
+				CD783055D7264B1A839F2B64 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/thrownApple1.cpp */,
+				0A2B3B86269744DA9011E9F0 /* /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/src/world.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		377933C71E624AFF8FF95D6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32825A1C03B4DE8A5CEDFFE /* ZERO_CHECK */;
+			targetProxy = C9C3FD9D32FF4D15BED7644E /* PBXContainerItemProxy */;
+		};
+		6F88B904D5654A4D9D9A71E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32825A1C03B4DE8A5CEDFFE /* ZERO_CHECK */;
+			targetProxy = 7E57D4DB72684C80803D9025 /* PBXContainerItemProxy */;
+		};
+		D17C7F361E9E49EB8D09C606 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F669C5EEAC9D45C6BFE601AB /* testappletreeGame */;
+			targetProxy = B2616A0ACF214186851C04E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21F0C17703384E7EB22198DF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		2A008554206742CFB3EBE8D4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/opt/homebrew/lib/libsfml-graphics.2.5.1.dylib","/opt/homebrew/lib/libsfml-window.2.5.1.dylib","/opt/homebrew/lib/libsfml-system.2.5.1.dylib","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testappletreeGame;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode;
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3AA6CFD7B85046A3A53C0199 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3AFB92B723D440C788FC4F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3B524A10A0D441F684B2BF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		43D21D862225486881E8BD3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		494F1358A6924534B20FCF03 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		75B9A09265334301951E1605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode/build;
+			};
+			name = Release;
+		};
+		8654DB99501040E0A934DC32 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9400D3FFD66F43B8A217102B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		97D708DB02E542B3B8E90E54 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		B93A1EF3CCCD4097A1F8B77A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/opt/homebrew/lib/libsfml-graphics.2.5.1.dylib","/opt/homebrew/lib/libsfml-window.2.5.1.dylib","/opt/homebrew/lib/libsfml-system.2.5.1.dylib","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testappletreeGame;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode;
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E0B22E048288429AB31E3591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/opt/homebrew/lib/libsfml-graphics.2.5.1.dylib","/opt/homebrew/lib/libsfml-window.2.5.1.dylib","/opt/homebrew/lib/libsfml-system.2.5.1.dylib","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testappletreeGame;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode;
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E6607673FF4C45EDB9D806D2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F10FEC7B9F3E4AC19605BBDD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/opt/homebrew/lib/libsfml-graphics.2.5.1.dylib","/opt/homebrew/lib/libsfml-window.2.5.1.dylib","/opt/homebrew/lib/libsfml-system.2.5.1.dylib","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testappletreeGame;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode;
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F47B5F60F70A404D81F562AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode/build;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A337FF3B603548C5A263E657 /* Build configuration list for PBXNativeTarget "testappletreeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93A1EF3CCCD4097A1F8B77A /* Debug */,
+				E0B22E048288429AB31E3591 /* Release */,
+				2A008554206742CFB3EBE8D4 /* MinSizeRel */,
+				F10FEC7B9F3E4AC19605BBDD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C278252DA1D246C4B0830ED9 /* Build configuration list for PBXProject "testappletreeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47B5F60F70A404D81F562AD /* Debug */,
+				75B9A09265334301951E1605 /* Release */,
+				97D708DB02E542B3B8E90E54 /* MinSizeRel */,
+				21F0C17703384E7EB22198DF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CD37BDF0CF13439C85BE6DE1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9400D3FFD66F43B8A217102B /* Debug */,
+				3AFB92B723D440C788FC4F2C /* Release */,
+				3AA6CFD7B85046A3A53C0199 /* MinSizeRel */,
+				8654DB99501040E0A934DC32 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F53C5C0FDC0D4AE88A346604 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D21D862225486881E8BD3D /* Debug */,
+				3B524A10A0D441F684B2BF4D /* Release */,
+				E6607673FF4C45EDB9D806D2 /* MinSizeRel */,
+				494F1358A6924534B20FCF03 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44EF89CF5C484752AC69B396 /* Project object */;
+}

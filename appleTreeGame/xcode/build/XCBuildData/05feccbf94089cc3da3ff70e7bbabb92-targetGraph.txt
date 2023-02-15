@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+ZERO_CHECK in testappletreeGame, no dependencies
+testappletreeGame in testappletreeGame, depends on:
+ZERO_CHECK in testappletreeGame (explicit)
+ALL_BUILD in testappletreeGame, depends on:
+testappletreeGame in testappletreeGame (explicit)
+ZERO_CHECK in testappletreeGame (explicit)

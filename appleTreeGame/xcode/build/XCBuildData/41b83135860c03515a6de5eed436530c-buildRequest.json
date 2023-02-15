@@ -1,0 +1,65 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "de59fa67191fbf37e6bbca65c3d5463c4afd1cbdfac79a37de7764f02355cb28"
+    },
+    {
+      "guid" : "de59fa67191fbf37e6bbca65c3d5463cb07d984e78be6e43cd3a3cbf21f168c2"
+    },
+    {
+      "guid" : "de59fa67191fbf37e6bbca65c3d5463c541a0088a01e917cbffc543c07ec8a4a"
+    }
+  ],
+  "containerPath" : "/Users/reshmaraghavan/Desktop/finalProject/appletreeGame/xcode/testappletreeGame.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/reshmaraghavan/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/reshmaraghavan/Library/Developer/Xcode/DerivedData/testappletreeGame-fkjxokemzprzkdbqcolnbrmvqjaz/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/reshmaraghavan/Library/Developer/Xcode/DerivedData/testappletreeGame-fkjxokemzprzkdbqcolnbrmvqjaz/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
