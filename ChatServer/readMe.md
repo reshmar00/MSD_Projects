@@ -1,0 +1,1 @@
+Created a Slack clone (chat app) that allows users to enter a chat room and send messages. Wrote own HTTP web server in Java and then upgraded to communicating over websockets. Includes frontend elements that use HTML, CSS, and JS.
