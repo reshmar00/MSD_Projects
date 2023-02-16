@@ -1,13 +1,3 @@
-Collaborated with one project partner to concieve a simple game that a fulfills the following goals:
+Collaborated with one project partner to create a simple game using C++ and the SFML library for its GUI components. We created several objects on screen (including one that was created dynamically), with some of them interacting with one another, and enabled user interaction through the keyboard. 
 
-• Must have several objects on-screen
-• Interaction
-  • Objects –You must have at least two separate objects.
-    • At least 2 objects must interact with each other in some way
-  • User –You must allow the user to interact with your game in some way 
-through the keyboard or mouse
-• Must create at least one object dynamically
-
-Game synopsis:
-
-In our game, apples fall from a tree and the objective is to catch them in a basket. From time to time, a squirrel might appear and try to interfere with this. If the squirrel touches the basket, the game restarts. You can thwart the squirrel by throwing an apple at it. Use the LEFT and RIGHT arrows to control the movement of the basket and SPACEBAR to throw an apple at the squirrel.
+The objective of the game is to catch falling apples from a tree in a basket, while a squirrel occassionaly appears and tries to interfere. If the squirrel touches the basket, the game restarts. The user can thwart the squirrel by throwing an apple at it. The LEFT and RIGHT arrow keys control the movement of the basket whereas the SPACEBAR throws an apple at the squirrel.
