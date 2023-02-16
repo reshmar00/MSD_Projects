@@ -1,1 +1,1 @@
-Created a sound wave synthesizer to make simple noises in Java using JavaFX. Also added GUI components like creating widgets that would play sounds, adjust the volume, and mix different sinewaves for multi-tonal sound generation.
+Created a sound wave synthesizer using Java and the JavaFX library to generate simple sounds. Also added GUI components, such as widgets for playing sounds, adjusting the volume, and mixing different sinewaves for multi-tonal sound generation.
