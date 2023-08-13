@@ -1,0 +1,74 @@
+#canvas {
+    height: 800px;
+}
+
+h1 {
+    text-align: center;
+    border: 3px solid green;
+    background-color: rgb(202, 240, 202);
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 400;
+}
+
+#svg-container {
+    height: 700px;
+    width: 50%;
+    float: left;
+    background-color: lightblue;
+    position: relative; /* Add relative positioning */
+}
+
+#body-parts-list {
+    height: 700px;
+    width: 40%; /* New width for the body parts list */
+    float: right;
+    background-color: lightblue;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+}
+
+#body-parts-list p {
+    font-size: 22px;
+    background-color: lightblue; /* Set the background color for the text */
+    padding: 5px; /* Add some padding inside the rectangle */
+    border-radius: 5px; /* Round the borders of the text's background */
+    width:150px;
+    color: lightblue;
+    line-height: 18px; /* set to the desired pixel value */
+}
+
+#body-parts-list p.highlighted {
+    background-color: white;
+    color: black;
+}
+
+#barPlotArea {
+    height: 700px;
+    width: 50%;
+    float: right;
+    background-color:antiquewhite;
+}
+
+.tooltip {
+    /* z-index: 9999; */
+    background-color: #ffffff;
+    border: 1px solid #ce0b0b;
+    padding: 10px;
+    font-size: 15px;
+    opacity: 4;
+    width: 80%;
+    max-height: 110px;
+    overflow-y: auto;
+}
+
+.newTooltip {
+    /* z-index: 9999; */
+    background-color: #ffffff;
+    border: 1px solid #ce0b0b;
+    padding: 10px;
+    font-size: 15px;
+    opacity: 4;
+    width: 70%;
+    max-height: 130px;
+    overflow-y: auto;
+}
